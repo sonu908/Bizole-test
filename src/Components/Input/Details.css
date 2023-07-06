@@ -1,0 +1,89 @@
+.inputStack {
+  flex: 1;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 10px;
+  margin-top: 6px;
+}
+select,
+input {
+  border: 0;
+  height: 40px;
+
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+#base_textarea {
+  margin-top: 10px;
+  flex-direction: column;
+  display: flex;
+  margin-left: 10px;
+}
+textarea {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border: 0;
+  max-width: 450px;
+  max-height: 150px;
+  height: 120px;
+}
+#add_address {
+  background-color: white;
+  color: #2e6adf;
+  border: 1px solid #2e6adf;
+  height: 40px;
+  letter-spacing: 1px;
+}
+.inputStack_Uploadfile {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 450px;
+  display: flex;
+  padding: 10px;
+
+  font-size: smaller;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.Uploadfile {
+  opacity: 0;
+  width: 100%;
+}
+.Bottom_buttons {
+  float: right;
+  margin-top: -30px;
+}
+.Bottom_buttons button {
+  margin-right: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.Bottom_buttons #cancel {
+  background-color: transparent;
+  border: 1px solid #2e6adf;
+
+  color: #2e6adf;
+}
+
+.Bottom_buttons #save {
+  background-color: #2e6adf;
+  border: 0;
+  color: white;
+}
+.requiredRed {
+  color: red;
+  font-size: small;
+}
+.iconAttach {
+  font-size: 58px;
+  height: 40px;
+  padding-right: 10px;
+color: rgb(169, 180, 180);
+  padding-left: 10px;
+  background-color: rgb(221, 217, 212);}

@@ -1,0 +1,75 @@
+.Navbar_container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  height: 72px;
+}
+.whole_navigation {
+  display: flex;
+  justify-content: space-between;
+
+  .navigation_left_end {
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation_right_end {
+    display: flex;
+    color: rgb(0, 0, 0);
+    gap: 10px;
+
+    .user-profile img {
+      height: 40px;
+      border-radius: 10px;
+    }
+
+    .bell-icon {
+      font-size: 40px;
+      padding: 4px;
+      background-color: rgb(221, 217, 212);
+      border-radius: 10px;
+    }
+  }
+}
+
+.Company_logo {
+  width: 55px;
+  margin-left: -30px;
+}
+.toggle-button {
+  padding: 5px;
+  color: #2E6ADF;
+  font-size: 40px;
+}
+.input_stack {
+  display: flex;
+  background-color: rgb(221, 217, 212);
+  padding: 18px;
+  height: 40px;
+  align-items: center;
+  border-radius: 40px;
+  color: black;
+
+  .input_bar {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+  }
+}
+.Logo_header {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding: 5px;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+.List_sidebar_icons {
+  font-size: large;
+}
+.footer {
+  margin-top: -18px;
+  font-size: 10px;
+  text-align: center;
+  background-color: white;
+  padding: 1px;
+}
