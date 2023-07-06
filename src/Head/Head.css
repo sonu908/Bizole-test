@@ -37,7 +37,7 @@
 }
 .toggle-button {
   padding: 5px;
-  color: #2E6ADF;
+  color: #2e6adf;
   font-size: 40px;
 }
 .input_stack {
@@ -67,9 +67,24 @@
   font-size: large;
 }
 .footer {
-  margin-top: -18px;
   font-size: 10px;
   text-align: center;
   background-color: white;
   padding: 1px;
+}
+
+@media (max-width: 946px) {
+  .navigation_right_end {
+    visibility: hidden;
+    position: absolute;
+  }
+  .navigation_left_end {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .input_stack {
+    background-color: transparent;
+  }
 }

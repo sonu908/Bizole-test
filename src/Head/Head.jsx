@@ -139,7 +139,11 @@ function Head() {
                 <CgMenuRightAlt />
               </IconButton>
               <div className="input_stack">
-                <input style={{boxShadow:"none"}} className="input_bar" type="text" />
+                <input
+                  style={{ boxShadow: "none" }}
+                  className="input_bar"
+                  type="text"
+                />
                 <BsSearch />
               </div>
             </div>

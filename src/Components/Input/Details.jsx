@@ -263,9 +263,12 @@ function Details() {
 
               <div style={{ display: "flex", gap: 22, marginLeft: 10 }}>
                 <div>
-                <label htmlFor="frontPage">Front Page</label>
+                  <label htmlFor="frontPage">Front Page</label>
 
-                  <div className="inputStack_Uploadfile" style={{ width: "90%" }}>
+                  <div
+                    className="inputStack_Uploadfile"
+                    style={{ width: "90%" }}
+                  >
                     <input
                       className="Uploadfile"
                       type="file"
@@ -276,7 +279,7 @@ function Details() {
                   </div>
                 </div>
                 <div>
-                <label htmlFor="backPage">Back Page</label>
+                  <label htmlFor="backPage">Back Page</label>
 
                   <div className="inputStack_Uploadfile">
                     <input
@@ -296,10 +299,10 @@ function Details() {
           <StyledTabPanel value={3}>Third page</StyledTabPanel>
           <StyledTabPanel value={4}>Third page</StyledTabPanel>
         </StyledTabs>
-        <div className="Bottom_buttons">
-          <button id="cancel">CANCEL</button>
-          <button id="save">SAVE</button>
-        </div>
+      </div>
+      <div className="Bottom_buttons">
+        <button id="cancel">CANCEL</button>
+        <button id="save">SAVE</button>
       </div>
     </div>
   );
